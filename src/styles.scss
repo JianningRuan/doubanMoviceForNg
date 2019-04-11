@@ -1,1 +1,74 @@
 /* You can add global styles to this file, and also import other style files */
+* { padding: 0; margin: 0;}
+a { text-decoration: none;}
+
+.flex {
+  display: flex;
+}
+.flex-full {
+  flex: 0 0 100%;
+}
+.flex-1of2 {
+  flex: 0 0 50%;
+}
+.flex-1of3 {
+  flex: 0 0 33.33%;
+}
+.flex-1of4 {
+  flex: 0 0 25%;
+}
+.flex1 {
+  flex: 1;
+}
+.flex-c {
+  flex-direction: column;
+}
+.flex-c-r {
+  flex-direction: column-reverse;
+}
+.flex-r {
+  flex-direction: row;
+}
+.flex-r-r {
+  flex-direction: row-reverse;
+}
+.flex-wrap-w {
+  flex-wrap: wrap;
+}
+.flex-flow {
+  flex-flow: row wrap;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-start {
+  justify-content: flex-start;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.flex-align-center {
+  align-items: center;
+}
+.flex-align-start {
+  align-items: flex-start;
+}
+.flex-align-end {
+  align-items: flex-end;
+}
+.flex-align-stretch {
+  align-items: stretch;
+}
+
+/*文本溢出省略*/
+.ellipsis {
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
